@@ -76,6 +76,13 @@ h4, p {
     color: var(--Cyan);
 }
 
+main {
+    display: grid;
+    grid-template-columns: 318px 318px;
+    grid-template-rows: 250px;
+    width: 100%;
+}
+
 .container {
     background-color: var(--White);
     border-radius: 5px;
